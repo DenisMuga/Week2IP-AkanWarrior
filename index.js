@@ -20,3 +20,4 @@ var AkanNames = {
     }
 }
 let birthday = document.getElemementById('birthday');
+let gender = document.getElemementById('gender');
