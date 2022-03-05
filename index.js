@@ -41,5 +41,9 @@ submitBtn.onclick = (event) => {
             let akanName = AkanNames.male[day];
             results.innerHTML = akanName;
         }
+        else{
+            let akanName = AkanNames.female[day];
+            results.innerHTML = akanName;
+        }
     }
 }
