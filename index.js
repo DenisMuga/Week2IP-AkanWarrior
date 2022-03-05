@@ -23,3 +23,11 @@ let birthday = document.getElemementById('birthday');
 let gender = document.getElemementById('gender');
 let submitBtn = document.getElementById('submit-btn');
 let results = document.getElementById('result-name');
+
+submitBtn.onclick = (event) => {
+    event.preventDefault();
+    let genderValue =gender.options[gender.selectedIndex].value;
+    let birthdayValue =birthday.value;
+
+    if(!birthdayValue || !genderValue)
+}
