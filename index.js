@@ -1,0 +1,1 @@
+var DaysOfTheWeek = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
