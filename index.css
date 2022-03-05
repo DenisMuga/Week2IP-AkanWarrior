@@ -21,6 +21,7 @@ body{
     width: 22.5vw;
     border-radius: 15px;
     border: 3px solid black;
+    height: 30vh;
 }
 .col-md-4 p{
     text-align: center;
@@ -31,4 +32,9 @@ body{
 .col-md-4{
     background-color: rgb(119, 199, 119);
     border-radius: 15px;
+}
+.col-md-4 h5{
+    margin-bottom: 1px;
+    text-align: center;
+    color: white;
 }
