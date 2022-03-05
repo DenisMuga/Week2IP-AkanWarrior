@@ -36,5 +36,10 @@ submitBtn.onclick = (event) => {
     else{
         let officialBirthDay = new Date(birthdayValue);
         let day = DaysOfTheWeek[officialBirthDay.getDay()];
+
+        if (genderValue === "male"){
+            let akanName = AkanNames.male[day];
+            results.innerHTML = akanName;
+        }
     }
 }
