@@ -21,3 +21,5 @@ var AkanNames = {
 }
 let birthday = document.getElemementById('birthday');
 let gender = document.getElemementById('gender');
+let submitBtn = document.getElementById('submit-btn');
+let results = document.getElementById('result-name');
