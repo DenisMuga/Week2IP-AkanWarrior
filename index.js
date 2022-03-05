@@ -8,5 +8,15 @@ var AkanNames = {
         "thursday": "Yaw",
         "friday": "Kofi",
         "saturday": "Kwame"
+    },
+    "female": {
+        "sunday": "Akosua",
+        "monday": "Adwoa",
+        "tuesday": "Abenaa",
+        "wednesday": "Akua",
+        "thursday": "Yaa",
+        "friday": "Afua",
+        "saturday": "Ama"
     }
 }
+let birthday = document.getElemementById('birthday');
