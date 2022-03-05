@@ -15,12 +15,35 @@
       <h1 class="jumbotron" id="heading">Akan Warriors</h1>
       <div class="container">
           <div class="row">
-              <div class="col-md-4"> <h2>About this Application</h2><img src="./Images/App.jpg" alt=""> <p>This a web application that takes a user's 
+              <div class="col-md-4"> <h2>About this Application</h2><img src="./Images/App.jpg" alt="App"> <p>This a web application that takes a user's 
                   birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Most people do 
                   know when their birthdays are, but some might not know what day of the week they were born. Luckily using this application, they can know
                   the day they were born corresponding to their Akan name convention.</p></div>
-              <div class="col-md-4"></div>
-              <div class="col-md-4"></div>
+              <div class="col-md-4"><section id="get-name" class="form-section">
+                <div class="form-container">
+                    <h2>Finding Your Akan Name</h2>
+                    <form>
+                        <label for="birthday">Select your birthday</label>
+                        <div>
+                        <input type="date" name="birthday" id="birthday">
+                    </div>
+                        <label for="gender">Select Your Gender</label>
+                        <div>
+                        <select name="gender" id="gender">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
+                    </div>
+                        <div>
+                        <button id="submit-btn" type="submit">submit</button>
+                    </div>
+                    </form>
+                    <p id="result">your akan name is...<span id="result-name"></span></p>
+                </div>
+            </section></div>
+              <div class="col-md-4"><h2>About Akan People</h2> <img src="./Images/Akan-people.jpeg" alt="Akan People"><p>Akan names are derived from
+                   Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the 
+                   week they were born Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsa! Lorem ipsum dolor sit amet.. <h5>Designed by &#169 2022 Denis Muga</h5></p></div>
           </div>
       </div>
      
