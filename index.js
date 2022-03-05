@@ -33,4 +33,8 @@ submitBtn.onclick = (event) => {
     if(!birthdayValue || !genderValue){
         alert("All fields are required");
     }
+    else{
+        let officialBirthDay = new Date(birthdayValue);
+        let day = DaysOfTheWeek[officialBirthDay.getDay()];
+    }
 }
