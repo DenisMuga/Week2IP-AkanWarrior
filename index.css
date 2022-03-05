@@ -36,5 +36,15 @@ body{
 .col-md-4 h5{
     margin-bottom: 1px;
     text-align: center;
-    color: white;
 }
+#birthday{
+    padding: 8px;
+    width: 20vw;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+}
+.form-container{
+    text-align: center;
+}
+
