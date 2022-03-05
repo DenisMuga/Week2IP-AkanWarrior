@@ -19,6 +19,7 @@ var AkanNames = {
         "saturday": "Ama"
     }
 }
+
 let birthday = document.getElemementById('birthday');
 let gender = document.getElemementById('gender');
 let submitBtn = document.getElementById('submit-btn');
@@ -29,5 +30,7 @@ submitBtn.onclick = (event) => {
     let genderValue =gender.options[gender.selectedIndex].value;
     let birthdayValue =birthday.value;
 
-    if(!birthdayValue || !genderValue)
+    if(!birthdayValue || !genderValue){
+        alert("All fields are required");
+    }
 }
