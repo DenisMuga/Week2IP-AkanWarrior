@@ -42,7 +42,7 @@ body{
     width: 20vw;
     font-size: 20px;
     border-radius: 15px;
-    /* border: solid rgb(119, 199, 119); */
+    border: solid rgb(119, 199, 119);
     cursor: pointer;
 }
 .form-container{
@@ -54,7 +54,7 @@ body{
     font-size: 20px;
     border-radius: 15px;
     border: 3px solid rgb(119, 199, 119);
-    background-color: rgba(216, 210, 210, 0.932);
+    background-color: white;
     cursor: pointer;
 }
 #submit-btn{
@@ -70,4 +70,21 @@ body{
 #result-name{
     color: green;
 }
+#result{
+    margin-top: 32%;
+    padding: 15px;
+    border: 3px solid rgb(119, 199, 119);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.form-container{
+    margin-top: 28%;
+}
+.jumbotron{
+    padding: 15px;
+}
+tr{
+    line-height: 1;
+}
+
 
