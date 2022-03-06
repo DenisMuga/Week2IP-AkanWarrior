@@ -9,7 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <script defer src="script.js"></script>
 </head>
   <body>
       <h1 class="jumbotron" id="heading">Akan Warriors</h1>
@@ -19,28 +20,27 @@
                   birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Most people do 
                   know when their birthdays are, but some might not know what day of the week they were born. Luckily using this application, they can know
                   the day they were born corresponding to their Akan name convention.</p></div>
-              <div class="col-md-4" style="background-color: white;"><section id="get-name" class="form-section">
-                <div class="form-container">
-                    <h2>Finding Your Akan Name</h2>
-                    <form>
-                        <label id="birthday" >Select your birthday</label>
-                        <div>
-                        <input style="border: 3px solid rgb(119, 199, 119);" type="date" name="birthday" id="birthday">
+              <div class="col-md-4" style="background-color: white;"> 
+        </section>
+        <section id="get-name" class="form-section">
+            <div class="form-container">
+                <h2>Finding Your Akan Name</h2>
+                <form>
+                    <label for="birthday">Select Your Birthday</label>
+                    <input type="date" name="birthday" id="birthday">
+                    <label for="gender">Select Your Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                    <div>
+                    <button id="submit-btn" type="submit">submit</button>
                     </div>
-                        <label for="gender">Select Your Gender</label>
-                        <div>
-                        <select name="gender" id="gender">
-                            <option value="male">male</option>
-                            <option value="female">female</option>
-                        </select>
-                    </div>
-                        <div>
-                        <button id="submit-btn" type="submit">submit</button>
-                    </div>
-                    </form>
-                    <p  style="margin-top: 35%; border: 3px solid rgb(119, 199, 119);" id="result">Your Akan name is:<span id="result-name"></span></p>
-                </div>
-            </section></div>
+                </form>
+                <p id="result">Your akan name is...<span id="result-name"></span></p>
+            </div>
+        </section>
+        </div>
               <div class="col-md-4"><h2>About Akan People</h2> <img src="./Images/Akan-people.jpeg" alt="Akan People"><p>Akan names are derived from
                    Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the 
                    week they were born Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsa! Lorem ipsum dolor sit amet.. <h5>Designed by &#169 2022 Denis Muga</h5></p></div>
