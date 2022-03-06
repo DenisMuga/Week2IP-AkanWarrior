@@ -16,34 +16,81 @@
       <h1 class="jumbotron" id="heading">Akan Warriors</h1>
       <div class="container">
           <div class="row">
-              <div class="col-md-4"> <h2>About this Application</h2><img src="./Images/App.jpg" alt="App"> <p>This a web application that takes a user's 
-                  birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Most people do 
-                  know when their birthdays are, but some might not know what day of the week they were born. Luckily using this application, they can know
-                  the day they were born corresponding to their Akan name convention.</p></div>
+              <div class="col-md-4"> <h2>About this Application</h2><img src="./Images/App.jpg" alt="App"> <p>
+                that takes a user's birthday and calculates the day of the week they were born - and then depending on 
+                their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their 
+                first name as a 'day name' which corresponds to the day in the week they were born. For instance, a male born on Sunday is named 
+                “Kwasi” while a female born on Sunday is named ‘Akosua.’ Other days of the week such as Monday, Tuesday, Wednesday, Thursday, 
+                Friday, and Saturday  week have different Akan names too.
+              </p></div>
               <div class="col-md-4" style="background-color: white;"> 
         </section>
         <section id="get-name" class="form-section">
+            <h2>Discover Your Akan Name</h2>
             <div class="form-container">
-                <h2>Finding Your Akan Name</h2>
                 <form>
                     <label for="birthday">Select Your Birthday</label>
                     <input type="date" name="birthday" id="birthday">
                     <label for="gender">Select Your Gender</label>
                     <select name="gender" id="gender">
-                        <option value="male">male</option>
-                        <option value="female">female</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
                     </select>
                     <div>
                     <button id="submit-btn" type="submit">submit</button>
                     </div>
                 </form>
-                <p id="result">Your akan name is...<span id="result-name"></span></p>
+                <p id="result">Your Akan name is:<span id="result-name"></span></p>
             </div>
         </section>
         </div>
-              <div class="col-md-4"><h2>About Akan People</h2> <img src="./Images/Akan-people.jpeg" alt="Akan People"><p>Akan names are derived from
-                   Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the 
-                   week they were born Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsa! Lorem ipsum dolor sit amet.. <h5>Designed by &#169 2022 Denis Muga</h5></p></div>
+              <div class="col-md-4"><h3>Akan Naming Convention</h3> <img src="./Images/Akan-people.jpeg" alt="Akan People"> 
+                <table class="table caption-top">
+                <thead>
+                  <tr>
+                    <th scope="col">DAYS</th>
+                    <th scope="col">MALE</th>
+                    <th scope="col">FEMALE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Sunday</td>
+                    <td>Kwasi</td>
+                    <td>Akosua</td>
+                  </tr>
+                  <tr>
+                    <td>Monday</td>
+                    <td>Kwadwo</td>
+                    <td>Adwoa</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>Kwabena</td>
+                    <td>Abenaa</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>Kwaku</td>
+                    <td>Akua</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>Yaw</td>
+                    <td>Yaa</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>Kofi</td>
+                    <td>Afua</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>Kwame</td>
+                    <td>Ama</td>
+                  </tr>
+                </tbody>
+              </table><h5>Designed by &#169 2022 Denis Muga</h5></div>
           </div>
       </div>
      
