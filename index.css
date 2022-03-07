@@ -21,14 +21,15 @@ body{
 .col-md-4 img{
     width: 22.5vw;
     border-radius: 15px;
-    border: 3px solid black;
+    border: 3px solid white;
     height: 30vh;
 }
 .col-md-4 p{
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 15px;
     margin-top: 3%;
+    color: white;
 }
 .col-md-4{
     background-color: rgb(119, 199, 119);
@@ -57,6 +58,7 @@ body{
     border: 3px solid rgb(119, 199, 119);
     background-color: white;
     cursor: pointer;
+    color: green;
 }
 #submit-btn{
     margin-top: 10%;
@@ -67,9 +69,11 @@ body{
     border: none;
     cursor: pointer;
     background-color: rgb(119, 199, 119);
+    color: white;
+    font-weight: bolder;
 }
 #result-name{
-    color: green;
+    color: Black;
 }
 #result{
     margin-top: 34%;
@@ -86,6 +90,11 @@ body{
 }
 tr{
     line-height: 1;
+}
+#Akan-table{
+    border: 3px solid white;
+    border-radius: 15px;
+    color: white;
 }
 
 
