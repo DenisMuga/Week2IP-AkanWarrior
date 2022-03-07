@@ -3,7 +3,8 @@
 ## Table of Content
 + [Description](#description)
 + [Installation Requirement]( Requisites)
-+ [Technology Used](technology-used)
++ [Behavior-Driven-Development](#BDD)
++ [Technology Used](#technology-used)
 + [Live-links] (#Live links)
 + [Reference](#reference)
 + [Licence](#licence)
@@ -18,6 +19,11 @@ his is a web application that takes a user's birthday and calculates the day of 
 * A stable internet connection to enable continuous adding and commiting HTML and CSS changes into the project's repository.
 ### Installation Process
 * A mandatory git initialization at the beginning of the project to enable adding and commiting changes to external (remote) repository.
+##BDD
+*Displays Birthday and Gender Input Form: INPUT: User Birthday; INPUT: User Gender: OUTPUT: Outputs Users Akan Names According to Birthday and Gender Submitted.
+* INPUT: Gender: NOT-INPUT: Birthday => Displays Error Message: "All Fields Are Required"
+* Displays Error Message if Either the Input Variables Are Not Chosen.
+*Refresh the Application Page to Reset the Input Form.
 ## Technology Used
 * Vanilla HTML is essential in building this project.
 * CSS for styling the webpage by incorporating key concepts such as display, align-contents, justify-content, width, float, classes, IDs, background color, and box-model, among others.
@@ -53,3 +59,4 @@ SOFTWARE.
 Slack Profile - Denis Muga.
 LinkedIn - (Denis Muga: https://www.linkedin.com/in/denis-mugah-0595b655/)
 Email - denismugah5@gmail.com
+Mobile: +254 712 858 753
